@@ -6,9 +6,9 @@ public class Song {
     private int mAudioResourceId;
     private int mImageResourceId;
 
-    public Song(String mName, int mAudioResourceId, int mImageResourceId) {
+    public Song(String mName, int mImageResourceId) {
         this.mName = mName;
-        this.mAudioResourceId = mAudioResourceId;
+        this.mAudioResourceId = 0;
         this.mImageResourceId = mImageResourceId;
     }
 

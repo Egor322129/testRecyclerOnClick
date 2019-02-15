@@ -25,7 +25,7 @@ public class NewActivity extends AppCompatActivity {
             int imageUrl = getIntent().getIntExtra("imageResourceId", 0);
             int songUrl = getIntent().getIntExtra("songResourceId", 0);
             String name = getIntent().getStringExtra("name");
-            song = new Song(name, songUrl, imageUrl);
+            song = new Song(name, imageUrl);
             Log.d("TAG", song.getName());
 
     }

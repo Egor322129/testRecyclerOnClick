@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
     }
 
     private void initSongs() {
-        mSongs.add( new Song("50cent", R.raw.bezslov, R.drawable.asp));
-        mSongs.add( new Song("Eminem", R.raw.zvezda, R.drawable.php));
-        mSongs.add( new Song("DrDre", R.raw.kamch, R.drawable.wp));
+        mSongs.add( new Song("50cent", R.drawable.asp));
+        mSongs.add( new Song("Eminem", R.drawable.php));
+        mSongs.add( new Song("DrDre", R.drawable.wp));
     }
 
     private void initRecyclerView() {
