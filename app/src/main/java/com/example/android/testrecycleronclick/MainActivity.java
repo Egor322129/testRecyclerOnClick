@@ -9,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements RecyclerViewAdapter.OnSongListener  {
-
+//test commits
     private RecyclerView recyclerView;
     RecyclerViewAdapter adapter;
     private ArrayList<Song> mSongs = new ArrayList<>();
