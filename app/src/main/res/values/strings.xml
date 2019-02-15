@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">testRecyclerOnClick</string>
+    <string name="activity2_name">NewActivity</string>
+</resources>
